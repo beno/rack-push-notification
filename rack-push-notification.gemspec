@@ -11,10 +11,10 @@ Gem::Specification.new do |s|
   s.summary     = "Rack::PushNotification"
   s.description = "Generate a REST API for registering and querying push notification device tokens."
 
-  s.add_dependency "rack", "~> 1.4"
+  s.add_dependency "rack", "~> 1.5"
   s.add_dependency "rack-contrib", "~> 1.1"
-  s.add_dependency "sequel", "~> 3.37"
-  s.add_dependency "sinatra", "~> 1.3"
+  s.add_dependency "sequel", "~> 3.48"
+  s.add_dependency "sinatra", "~> 1.4"
   s.add_dependency "sinatra-param", "~> 1.1"
 
   s.add_development_dependency "rspec"
