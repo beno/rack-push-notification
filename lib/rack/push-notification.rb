@@ -29,7 +29,7 @@ module Rack
       content_type :json
     end
 
-    patch '/devices/:token/?' do
+    put '/devices/:token/?' do
       param :languages, Array
       param :tags, Array
 
